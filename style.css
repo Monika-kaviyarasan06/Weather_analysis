@@ -1,0 +1,110 @@
+/* /* /* /* body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px gray;
+}
+input, button {
+  display: block;
+  margin: 10px 0;
+  padding: 8px;
+  width: 100%;
+} */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background:url(images/tree.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100vh; */
+    /* linear-gradient(to right, #4facfe, #00f2fe) */
+}
+
+.container {
+    background: rgb(183, 176, 176);
+    opacity: 0.9;
+    width: 350px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.search-box input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #0f0a0a;
+    border-radius: 8px 0 0 8px;
+    outline: none;
+}
+
+.search-box button {
+    width: 30%;
+    background: #205284;
+    opacity: 0.5;
+    color: white;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.search-box button:hover {
+    background: #043c43;
+    opacity: 0.5;
+}
+
+.weather-box img {
+    width: 120px;
+    margin: 15px 0;
+}
+
+.temperature {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.weather-details {
+    display: flex;
+    justify-content: space-around;
+    font-size: 1rem;
+    margin-top: 15px;
+}
+
+.not-found {
+    display: none;
+    color: red;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+   
